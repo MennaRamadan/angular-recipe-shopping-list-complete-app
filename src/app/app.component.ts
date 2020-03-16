@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-pro-app';
+  loadedFeature = 'recipe';
+
+
+  onNaviagte(feature :string){
+    this.loadedFeature = feature;
+  }
 }
