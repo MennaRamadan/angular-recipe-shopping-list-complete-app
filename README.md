@@ -33,5 +33,7 @@ Passing Data using Data Binding (@input()),
 Passing Data to 2 parents levels,
 Using @ViewChild(),
 Creating Custom Directive,
-Creating services and passing parameters through components using EventEmitter
+Creating services and passing parameters through components using EventEmitter,
+Adding Routing,
+Adding child routes
 
