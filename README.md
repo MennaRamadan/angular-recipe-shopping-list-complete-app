@@ -37,4 +37,4 @@ Creating services and passing parameters through components using EventEmitter,
 Adding Routing,
 Adding child routes,
 Using Subject as Observable
-
+Forms using Template method
