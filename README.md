@@ -37,4 +37,6 @@ Creating services and passing parameters through components using EventEmitter,
 Adding Routing,
 Adding child routes,
 Using Subject as Observable
-Forms using Template method
+Forms using Template method,
+adding new FornArray in reactive forms
+Using Reactive form approach
