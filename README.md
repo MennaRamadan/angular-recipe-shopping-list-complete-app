@@ -40,4 +40,5 @@ Using Subject as Observable
 Forms using Template method,
 adding new FornArray in reactive forms
 Using Reactive form approach
-Using Firebase
+Using Firebase,
+sperating Recipes, Shopping list route and module files
