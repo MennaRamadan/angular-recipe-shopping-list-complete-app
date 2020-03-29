@@ -8,7 +8,7 @@ const router : Routes =[
 ];
 
 @NgModule({
-    imports:[RouterModule.forRoot(router)],
+    imports:[RouterModule.forChild(router)],
     exports: [RouterModule]
 })
 export class ShoppingListRouting{}
