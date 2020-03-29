@@ -10,6 +10,7 @@ import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 import { RecipeStartComponent } from './recipe-start/recipe-start.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { RecipesRoutingModule } from './recipes.routing';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
     declarations: [
@@ -22,10 +23,11 @@ import { RecipesRoutingModule } from './recipes.routing';
     ],
     //it is a solution to make this module know about routing 
     imports: [
-        CommonModule,
+        // CommonModule,
         ReactiveFormsModule,
         RouterModule,
-        RecipesRoutingModule
+        RecipesRoutingModule,
+        SharedModule
     ],
     //here we use exports to be able to use any module outside this module, in any module that import this module
     exports: [

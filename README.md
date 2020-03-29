@@ -41,4 +41,6 @@ Forms using Template method,
 adding new FornArray in reactive forms
 Using Reactive form approach
 Using Firebase,
-sperating Recipes, Shopping list route and module files
+sperating Recipes, Shopping list route and module files,
+Dealing with shared Module,
+Dealing with core modulw to add services
