@@ -44,4 +44,10 @@ Using Firebase,
 sperating Recipes, Shopping list route and module files,
 Dealing with shared Module,
 Dealing with core modulw to add services,
-Using Lazy loading to load only component files, dependencies, declaration only when component loaded
+Using Lazy loading to load only component files, dependencies, declaration only when component loaded,
+creating service and use @Injectable or adding it in providers in app module will create an instance of the service throught all the application,
+If we add a service in providers inside app module and another one inside shopping list for example that mean
+there are 2 instances of of the service one shared across the app and another one for shopping list component,
+If we add a service in shared folder which egalry loaded or injected in app module and also used in shopping list lazy loading component, this mean that all applicaion has one instance of the service but shopping list component has it's own instanve of the service ,
+
+
