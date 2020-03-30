@@ -4,7 +4,10 @@ import {  RouterModule, Routes } from "@angular/router";
 import { ShoppingListComponent } from './shopping-list.component';
 
 const router : Routes =[
-    {path: 'shopping-list', component: ShoppingListComponent}
+    //this before lazy loading
+    // {path: 'shopping-list', component: ShoppingListComponent}
+    //this after applying lazy loading 
+    {path: '', component: ShoppingListComponent}
 ];
 
 @NgModule({

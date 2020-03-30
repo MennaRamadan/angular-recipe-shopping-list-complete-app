@@ -27,8 +27,9 @@ import { CoreModule } from './core.module';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    RecipesModule,
-    ShoppingListModule,
+    //I commented this as itwill loaded lazly
+    // RecipesModule,
+    // ShoppingListModule,
     SharedModule,
     CoreModule
   ],

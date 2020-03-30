@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { ShoppingListComponent } from './shopping-list.component';
 import { ShoppingEditComponent } from './shopping-edit/shopping-edit.component';
 import { ShoppingListRouting } from "./shopping-list.routing";
-import { SharedModule } from './../shared/shared.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({

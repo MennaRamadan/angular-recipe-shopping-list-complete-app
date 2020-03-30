@@ -43,4 +43,5 @@ Using Reactive form approach
 Using Firebase,
 sperating Recipes, Shopping list route and module files,
 Dealing with shared Module,
-Dealing with core modulw to add services
+Dealing with core modulw to add services,
+Using Lazy loading to load only component files, dependencies, declaration only when component loaded
