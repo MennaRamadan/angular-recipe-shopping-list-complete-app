@@ -51,8 +51,12 @@ there are 2 instances of of the service one shared across the app and another on
 If we add a service in shared folder which egalry loaded or injected in app module and also used in shopping list lazy loading component, this mean that all applicaion has one instance of the service but shopping list component has it's own instanve of the service ,
 Just in time compilation (JIT) means that we write typescript and angular syntex like *ngIf and *ngFor then typesript compiler convert it to javascript after that JIT convert this to DOM instructions which run on the browser (occured at run time),
 (AOT) Ahead of time this compile the template ahead of the execution time and no in the browser before the app is deployed,
-to use AOT using ng build --prodو
-I will use static hosting to host javascript, html and css as angular application
+to use AOT using ng build --prod,
+I will use static hosting to host javascript, html and css as angular application,
+steps: 
+ng build --prod, 
+firebase init
+firebase deploy
 
 
 
